@@ -62,6 +62,21 @@ The end result was a system that gave the company a clearer picture of its fleet
 
 ---
 
+## Google Sheet & Tab Explanations
+
+A redacted version of the Fleet Vehicle Tracking System Google Sheet is available here (View Only):  
+🔗 [Fleet Vehicle Tracking System Sheet](https://docs.google.com/spreadsheets/d/1s2uDXDJCzIm7hVbWeURKjn20iA9xUMuQIJM_ajIaXO4/edit?usp=sharing)
+
+The sheet contains the following tabs:
+
+| Tab Name       | Purpose |
+|----------------|---------|
+| `INFO`       | Links back to this GitHub repository for detailed documentation. |
+| `FLEET_MASTER` | The master dataset containing all fleet records. This tab is filtered automatically for each region when generating daily emails. Appscript handles **Model** dropdowns based on the **Make** chosen and the corresponding section from the `SETTINGS` tab. |
+| `ENTERPRISE_EXPORT`   | Updated as vehicles are added to Enterprise system and populates **Enterprise #** in `FLEET_MASTER` tab. |
+| `SETTINGS`   | Stores dropdown values, regional contacts, and configuration for daily automation. Changes here affect report generation. |
+
+
 ## Screenshots
 
 <!--

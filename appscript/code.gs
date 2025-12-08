@@ -170,7 +170,7 @@ function sendDailyRegionalReports() {
       .getBlob()
       .setName(`Fleet_Report_${region}.xlsx`);
 
-    const pdfBlob = response.getBlob().setName(`Fleet_Report_${region}.pdf`);
+    const xlsxBlob = response.getBlob().setName(`Fleet_Report_${region}.xlsx`);
 
     // Delete the temporary file
     DriveApp.getFileById(tempSheet.getId()).setTrashed(true);

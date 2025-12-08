@@ -166,10 +166,6 @@ function sendDailyRegionalReports() {
       }
     });
 
-    const xlsxBlob = response
-      .getBlob()
-      .setName(`Fleet_Report_${region}.xlsx`);
-
     const xlsxBlob = response.getBlob().setName(`Fleet_Report_${region}.xlsx`);
 
     // Delete the temporary file

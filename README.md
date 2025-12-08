@@ -94,7 +94,7 @@ This script:
 
 ### Script Details
 - The script runs automatically every day between **4:00 and 5:00 AM MST**.
-- Temporary report files are generated as PDFs.
+- Temporary report files are generated as xlsx files.
 - The automation regional contacts are configurable by updating the `SETTINGS` tab.
 
 ### Access the Script

@@ -76,6 +76,32 @@ The sheet contains the following tabs:
 | `ENTERPRISE_EXPORT`   | Updated as vehicles are added to Enterprise system and populates **Enterprise #** in `FLEET_MASTER` tab. |
 | `SETTINGS`   | Stores dropdown values, regional contacts, and configuration for daily automation. Changes here affect report generation. |
 
+---
+
+## Apps Script Automation
+
+The Fleet Vehicle Tracking System includes a Google Apps Script that automates **daily regional report emails**. 
+
+This script:
+
+1. Reads the `SETTINGS` tab for regional contacts.
+2. Filters the `FLEET_MASTER` tab for each region, including rows where:
+   - **Primary Region** = REGION, OR
+   - **Transfer Region** = REGION
+3. Generates a temporary report file for the region.
+4. Sends a formatted email to the regional contact using Gmail, attaching the filtered report.
+5. Deletes the temporary file after sending to keep Drive clean.
+
+### Script Details
+- The script runs automatically every day between **4:00 and 5:00 AM MST**.
+- Temporary report files are generated as PDFs.
+- The automation regional contacts are configurable by updating the `SETTINGS` tab.
+
+### Access the Script
+The full Apps Script code is available here:
+[`/appscript/code.gs`](./appscript/code.gs)
+
+---
 
 ## Screenshots
 

@@ -103,6 +103,17 @@ The full Apps Script code is available here:
 
 ---
 
+## Documentation
+
+Additional technical and operational documentation for this project is available below:
+
+- [Project Governance](docs/governance.md)
+- [Service Level Agreements (SLAs)](docs/slas.md)
+- [Data Dictionary](docs/data_dictionary.md)
+- [Apps Script Automation](docs/appscript.md)
+
+---
+
 ## Screenshots
 
 <!--

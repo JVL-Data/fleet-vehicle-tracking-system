@@ -119,7 +119,7 @@ Additional technical and operational documentation for this project is available
 *ETL workflow from data sources to SQL, email reports, and Looker dashboards*
 ![Workflow Diagram](assets/FleetSystem_Workflow.png)
 
-*Sample email text automatically sent to each region via appscript daily.*
+*Sample email text automatically sent to each region via appscript daily*
 ![Email Sample Text](assets/FleetSystem_EmailText.png)
 
 *Sample email attachment can be downloaded here*  

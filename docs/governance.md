@@ -1,6 +1,7 @@
 # Project Governance
 
 ## Table of Contents
+
 - [Project Overview](#project-overview)
 - [Data Ownership](#data-ownership)
 - [Data Quality Standards](#data-quality-standards)
@@ -8,9 +9,10 @@
 - [Access & Security](#access--security)
 
 ## Project Overview
-This document defines the data governance principles for the Fleet Vehicle Tracking System. The goal is to ensure data accuracy, consistency, accountability, and responsible access across operational reporting workflows.
 
-These principles are designed for practical enforcement within small to mid-sized service organizations.
+This document defines the data governance principles for the **Fleet Vehicle Tracking System**. 
+The goal is to ensure data accuracy, consistency, accountability, and responsible access across operational reporting workflows.
+
 
 ---
 
@@ -38,6 +40,7 @@ Invalid or inconsistent data is prevented at point of entry where possible.
 ## Change Management
 
 All structural changes require:
+
 - Review of downstream reporting impact
 - Validation of Apps Script logic
 - Update to the data dictionary if fields are added or modified

@@ -80,6 +80,7 @@ Unverified app warnings are expected for internal tooling and portfolio use case
 
 ## Error Handling & Logging
 
+Logger items have been removed for presentation simplicity but logged the following items:
 - Required column headers are validated prior to execution
 - Empty datasets are skipped
 - Execution details are recorded using `Logger.log()` for audit and troubleshooting purposes

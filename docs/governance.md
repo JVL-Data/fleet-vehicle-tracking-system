@@ -52,7 +52,7 @@ Ad-hoc changes to column headers or control tables are discouraged.
 ## Access & Security
 
 - Edit access is limited to operational staff and BI administrators
-- Email recipients are controlled via the SETTINGS tab
+- Email recipients are controlled via the `SETTINGS` tab
 - Reports are distributed via Gmail attachments rather than shared Drive access
 
 Sensitive data should not be added without appropriate approval.

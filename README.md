@@ -116,13 +116,11 @@ Additional technical and operational documentation for this project is available
 
 ## Screenshots
 
-<!--
-**Data Flow: Google Sheets → SQL → Looker Dashboards**  
-![Workflow Diagram](assets/fleet_workflow.png)
+*ETL workflow from data sources to SQL, email reports, and Looker dashboards*
+![Workflow Diagram](assets/FleetSystem_Workflow.png)
 
-**Cleaned & Standardized Fleet Master File**  
-![Fleet Master Example](assets/fleet_master_example.png)
+*Sample email text automatically sent to each region via appscript daily.*
+![Email Sample Text](assets/FleetSystem_EmailText.png)
 
-**Fleet Dashboard Overview (Mockup)**  
-![Dashboard Mockup](assets/fleet_dashboard_mockup.png)
--->
+*Sample email attachment can be downloaded here*  
+[Download sample XLSX](assets/FleetSystem_EmailAttachment.xlsx)

@@ -1,20 +1,20 @@
 # Project Governance
 
 ## Table of Contents
-- [Project Overview](#overview)
-- [Data Ownership](#ownership)
+- [Project Overview](#project-overview)
+- [Data Ownership](#data-ownership)
 - [Data Quality Standards](#data-quality-standards)
 - [Change Management](#change-management)
 - [Access & Security](#access--security)
 
-## Overview
+## Project Overview
 This document defines the data governance principles for the Fleet Vehicle Tracking System. The goal is to ensure data accuracy, consistency, accountability, and responsible access across operational reporting workflows.
 
 These principles are designed for practical enforcement within small to mid-sized service organizations.
 
 ---
 
-## Ownership
+## Data Ownership
 
 - **Business Ownership:** Fleet operations leadership owns the business meaning of all fleet data
 - **Technical Ownership:** Analytics / BI owns data integrity, validation rules, and reporting automation
